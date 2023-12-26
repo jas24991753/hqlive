@@ -1,0 +1,25 @@
+<div class="counter">
+    <div class="row">
+        <span class="title">bundle名稱:</span>
+        <input class="value" type="text" placeholder="name" v-model="bundleName" />
+    </div>
+    <div class="row">
+        <span class="title">版本:</span>
+        <input class="value" type="text" placeholder="version" v-model="bundleVersion" />
+    </div>
+    <div class="row">
+        <span class="title">遠端路徑:</span>
+        <input class="value" type="text" placeholder="remote path" v-model="remoteUrl" />
+    </div>
+    <div class="row">
+        <span class="title">manifest路徑:</span>
+        <input class="value" type="text" placeholder="version" v-model="manifestPath" />
+        <span class="status"></span>
+    </div>
+    <div class="row panel">
+        <ui-button @click="reset">重置</ui-button>
+        <ui-button class="blue" @click="generate">生成</ui-button>
+        <span ref="buildStatus" class="build-status"></span>
+    </div>
+    <span class="hint">manifest的預設生成路徑,為build/build-bundle/remote/{bundleName}/下</span>
+</div>

@@ -1,0 +1,159 @@
+{
+  "__version__": "1.3.6",
+  "log": {
+    "level": 1
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "android",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "android",
+    "bundleConfigs": [],
+    "name": "hqlive",
+    "scenes": [
+      {
+        "url": "db://assets/scenes/Authentication.scene",
+        "uuid": "f73bde7f-b423-48f4-bdb6-b466afc64fee"
+      },
+      {
+        "url": "db://assets/scenes/GameLoading.scene",
+        "uuid": "16305b38-618f-4fdd-891d-32241b6417d6"
+      },
+      {
+        "url": "db://assets/scenes/LiveStreaming.scene",
+        "uuid": "2474e90c-26f7-4e98-a1c6-771df11ac745"
+      },
+      {
+        "url": "db://assets/scenes/Main.scene",
+        "uuid": "f9943f0d-d4a9-4a00-9e08-99b493138341"
+      },
+      {
+        "url": "db://assets/scenes/MainLoading.scene",
+        "uuid": "4c18c668-7dbe-49f3-94ef-fe3217c70e35"
+      },
+      {
+        "url": "db://assets/scenes/SelfieStreaming.scene",
+        "uuid": "16f09970-363e-4891-b021-1347fd1dfa77"
+      }
+    ],
+    "startScene": "4c18c668-7dbe-49f3-94ef-fe3217c70e35",
+    "server": ""
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1698052428389": {
+        "type": "build",
+        "id": "1698052428389",
+        "progress": 1,
+        "state": "failure",
+        "stage": "build",
+        "message": "2023-10-23 17:22:07 build task failed! Please check if Xcode is installed.",
+        "options": {
+          "name": "NewProject",
+          "server": "",
+          "platform": "ios",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "3e2bb662-98cd-4389-b0ba-328e3518cdb7",
+          "outputName": "ios",
+          "taskName": "ios",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "3e2bb662-98cd-4389-b0ba-328e3518cdb7"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.6",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/ios10-23-2023 17-13.log"
+        },
+        "time": "10-23-2023 17:21:27",
+        "dirty": false
+      },
+      "1702963085441": {
+        "type": "build",
+        "id": "1702963085441",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-12-26 11:06:14 build success in 10649 ms!",
+        "options": {
+          "name": "hqlive",
+          "server": "",
+          "platform": "android",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "4c18c668-7dbe-49f3-94ef-fe3217c70e35",
+          "outputName": "android",
+          "taskName": "android",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/Authentication.scene",
+              "uuid": "f73bde7f-b423-48f4-bdb6-b466afc64fee"
+            },
+            {
+              "url": "db://assets/scenes/GameLoading.scene",
+              "uuid": "16305b38-618f-4fdd-891d-32241b6417d6"
+            },
+            {
+              "url": "db://assets/scenes/LiveStreaming.scene",
+              "uuid": "2474e90c-26f7-4e98-a1c6-771df11ac745"
+            },
+            {
+              "url": "db://assets/scenes/Main.scene",
+              "uuid": "f9943f0d-d4a9-4a00-9e08-99b493138341"
+            },
+            {
+              "url": "db://assets/scenes/MainLoading.scene",
+              "uuid": "4c18c668-7dbe-49f3-94ef-fe3217c70e35"
+            },
+            {
+              "url": "db://assets/scenes/SelfieStreaming.scene",
+              "uuid": "16f09970-363e-4891-b021-1347fd1dfa77"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.6",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/android12-19-2023 13-18.log"
+        },
+        "time": "12-26-2023 11:06:04",
+        "dirty": false
+      }
+    }
+  }
+}

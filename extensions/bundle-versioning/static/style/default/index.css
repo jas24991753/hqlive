@@ -1,0 +1,80 @@
+#text {
+    color: var(--color-normal-contrast-weakest);
+    margin: auto;
+    width: 180px;
+}
+
+.counter {
+    text-align: center;
+}
+
+div.row {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+div.row>span.title {
+    box-sizing: border-box;
+    width: 200px;
+}
+
+div.row>input.value {
+    width: 350px;
+}
+
+div.panel>* {
+    margin-right: 10px;
+}
+
+
+/* 使用 keyframes 创建动画 */
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        /* 从透明度为 0 开始 */
+    }
+
+    to {
+        opacity: 1;
+        /* 最终透明度为 1 */
+    }
+}
+
+/* 使用 keyframes 创建动画 */
+@keyframes fadeOutAnimation {
+    from {
+        opacity: 1;
+        /* 从透明度为 0 开始 */
+    }
+
+    to {
+        opacity: 0;
+        /* 最终透明度为 1 */
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.success {
+    color: chartreuse;
+}
+
+.fail {
+    color: #EB3F1E;
+}
+
+.fadeIn {
+    display: block;
+    animation: fadeInAnimation 0.7s linear;
+    /* 使用动画 */
+}
+
+.fadeOut {
+    display: block;
+    animation: fadeOutAnimation 0.7s linear;
+    animation-fill-mode: forwards;
+    /* 使用动画 */
+}

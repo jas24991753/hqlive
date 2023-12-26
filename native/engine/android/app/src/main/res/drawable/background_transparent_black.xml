@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#80000000"/> <!-- 这里的 #80 表示半透明度为 50% 的黑色 (#80 + #000000) -->
+</shape>

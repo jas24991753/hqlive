@@ -1,0 +1,71 @@
+{
+  "__version__": "1.0.2",
+  "builder": {
+    "taskOptionsMap": {
+      "1698052005188": {
+        "encrypted": false,
+        "xxteaKey": "69kBR6qd5Ngacji0",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1698052428389": {
+        "encrypted": false,
+        "xxteaKey": "69kBR6qd5Ngacji0",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1698370834199": {
+        "encrypted": false,
+        "xxteaKey": "dait/UUMRCLYlumz",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1701236338375": {
+        "encrypted": false,
+        "xxteaKey": "dcNezN6AlCAb5Fol",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1701245451527": {
+        "encrypted": false,
+        "xxteaKey": "72c4K0GVhKRbGvnL",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1701246212567": {
+        "encrypted": false,
+        "xxteaKey": "13D7fXzftORLjer6",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1701246469981": {
+        "encrypted": false,
+        "xxteaKey": "13D7fXzftORLjer6",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1701395233185": {
+        "encrypted": false,
+        "xxteaKey": "8atNRTwfNK8Z+tQn",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1702963085441": {
+        "encrypted": false,
+        "xxteaKey": "00d8uJsgFOT76IKV",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      }
+    },
+    "__version__": "1.3.6"
+  }
+}

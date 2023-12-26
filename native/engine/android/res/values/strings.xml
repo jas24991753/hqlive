@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">hqlive</string>
+    <string name="google_web_client_id" translatable="false">583493051315-clp04c81n65ujkrl2vcd2s312vbthnft.apps.googleusercontent.com</string>
+    <string name="google_app_client_id" translatable="false">583493051315-eqlj6g3f0b3tl3linlh5ujapb7kdua25.apps.googleusercontent.com</string>
+    <string name="google_web_client_secret" translatable="false">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</string>
+    <string name="google_redirect_uri" translatable="false">https://53d4-211-23-35-187.ngrok-free.app/v1/oAuth/google/callback</string>
+    <string name="line_channelId" translatable="false">2001941259</string>
+    <string name="yahoo_channelId" translatable="false">dj0yJmk9eEpuM2ZiZjFHaWxxJmQ9WVdrOU5qTmhZVUpKT1VVbWNHbzlNQT09JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTAx</string>
+    <string name="yahoo_redirect_uri" translatable="false">myapp://redirecturipath</string>
+    <string name="facebook_app_id" translatable="false">1144688876877464</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1144688876877464</string>
+    <string name="facebook_client_token" translatable="false">967a0fd99d98bdee19f7a64ab48f1b4c</string>
+</resources>

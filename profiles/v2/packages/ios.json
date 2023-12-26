@@ -1,0 +1,81 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "ios",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "ios",
+      "bundleConfigs": [],
+      "name": "android"
+    },
+    "options": {
+      "ios": {
+        "executableName": "",
+        "packageName": "com.xpg.poc",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": false
+        },
+        "targetVersion": "12.0",
+        "__version__": "1.0.1",
+        "developerTeam": ""
+      }
+    },
+    "taskOptionsMap": {
+      "1698052005188": {
+        "executableName": "",
+        "packageName": "com.xpg.poc",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": false,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "osTarget": {
+          "iphoneos": false,
+          "simulator": true
+        },
+        "targetVersion": "12.0",
+        "__version__": "1.0.1",
+        "developerTeam": ""
+      },
+      "1698052428389": {
+        "executableName": "",
+        "packageName": "com.xpg.poc",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": false
+        },
+        "targetVersion": "12.0",
+        "__version__": "1.0.1",
+        "developerTeam": ""
+      }
+    },
+    "__version__": "1.3.6"
+  }
+}

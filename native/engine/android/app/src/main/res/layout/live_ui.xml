@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/live_ui_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_transparent_black"
+    android:visibility="gone">
+
+    <ImageButton
+        android:id="@+id/switchButton"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_switch" />
+
+</FrameLayout>
